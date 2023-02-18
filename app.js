@@ -147,7 +147,6 @@ app.use("/campgrounds/:id/reviews", reviewRouter);
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
-    console.log(req.query);
     res.render("home");
 });
 
