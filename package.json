@@ -4,6 +4,7 @@
     "description": "Yelp Campground basic clone using EJS, MongoDB, Express and Node",
     "main": "app.js",
     "dependencies": {
+        "@mapbox/mapbox-sdk": "^0.15.0",
         "axios": "^1.3.2",
         "cloudinary": "^1.34.0",
         "connect-flash": "^0.1.1",
